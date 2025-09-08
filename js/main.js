@@ -64,7 +64,7 @@ connectedCallback() {
     this.innerHTML = `
       <header>
         <nav>
-          <img src="/img/logo.png" alt="logo" width="28" height="28">
+          <img src="img/logo.png" alt="logo" width="28" height="28">
           <h3>My Notes</h3>
         </nav>
         <note-search></note-search>
