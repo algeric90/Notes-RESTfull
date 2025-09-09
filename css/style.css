@@ -38,6 +38,11 @@ body{
 	background: #072227 ;
 	height: 100vh;
 }
+note-app{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
 
 header{
 	display: flex;
@@ -135,8 +140,7 @@ footer{
 	padding: 1rem 2rem;
 	border-top: 1px solid #35858B;
 	text-align: center;
-	position:relative;
-	bottom: 0;
+	margin-top: auto;
 
 }
 

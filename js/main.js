@@ -84,7 +84,7 @@ connectedCallback() {
         <note-input></note-input>
       </main>
       <footer>
-        <small>Copyright &copy; 2025 - Notes App</small>
+        <small>Copyright &copy; ARL 2025 - Notes App</small>
       </footer>
     `;
   }
