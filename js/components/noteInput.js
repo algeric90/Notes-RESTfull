@@ -33,21 +33,21 @@ class noteInput extends HTMLElement {
         new CustomEvent("add", {
           detail: { title, body },
           bubbles: true,
-        })
+        }),
       );
       form.reset();
-      charCount.textContent = 50; 
+      charCount.textContent = 50;
     });
 
     // update sisa karakter
     titleInput.addEventListener("input", () => {
       const remaining = 50 - titleInput.value.length;
-      if (remaining === 0){
-        charCount.style.color = 'red';
-        charCount.textContent = 'Maksimal karakter tercapai';
-      }else{
+      if (remaining === 0) {
+        charCount.style.color = "red";
+        charCount.textContent = "Maksimal karakter tercapai";
+      } else {
         charCount.textContent = `Karakter tersisa : ` + remaining;
-        charCount.style.color = '#aefeff';
+        charCount.style.color = "#aefeff";
       }
     });
   }
