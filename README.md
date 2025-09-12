@@ -1,2 +1,3 @@
-# Web-component
+# Notes app with RESTfull API
+
 
