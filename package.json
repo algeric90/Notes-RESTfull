@@ -1,0 +1,37 @@
+{
+  "name": "notes-restfull",
+  "version": "1.0.0",
+  "description": "Notes app with RESTfull API",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start-dev": "webpack-dev-server --config webpack.dev.js",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,css,html}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algeric90/Notes-RESTfull.git"
+  },
+  "author": "Alfa Rifa Luky Achmad Rayendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algeric90/Notes-RESTfull/issues"
+  },
+  "homepage": "https://github.com/algeric90/Notes-RESTfull#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.1",
+    "prettier": "^3.6.2"
+  }
+}
